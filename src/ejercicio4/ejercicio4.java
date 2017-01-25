@@ -46,9 +46,8 @@ public class ejercicio4 {
 	
 	
 	public static float resultado(float c1,float c2){
-		
-		
-		return c1*2 + c2*2;
+	
+		return (float) Math.sqrt(c1*c1 + c2*c2);
 	}
 
 }
